@@ -1,0 +1,458 @@
+/* 概要图片 */
+.gaiyao {
+    width: 100%;
+    height: 584px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.gaiyao span:nth-child(1) {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%);
+    color: #121111;
+    z-index: 9999;
+    display: inline-block;
+}
+
+.gaiyao span:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%);
+    color: #121111;
+    z-index: 9999;
+    display: inline-block;
+}
+
+.gaiyao img {
+    width: 100%;
+    height: 584;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+/* 概要图片 */
+
+/* 介绍条 */
+.jieshao {
+    width: 100%;
+    height: 63.2px;
+    padding: 0px 300px;
+    color: rgb(247, 247, 247);
+    box-shadow: rgba(51, 51, 51, 0.08) 0px 0px 8px 0px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 13px;
+    line-height: 20.8px;
+    /* position: fixed; */
+}
+
+.jieshao .little_model {
+    color: rgb(101, 113, 128);
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    line-height: 25.6px;
+    padding: 18px 12px;
+    text-wrap: nowrap;
+    white-space-collapse: collapse;
+    width: 88px;
+    box-sizing: border-box;
+}
+
+.jieshao .little_model:hover {
+    color: rgb(45, 140, 240);
+    border-bottom-color: rgb(45, 140, 240);
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    box-sizing: border-box;
+}
+
+/* 介绍条 */
+
+/* 公司介绍 */
+.comp-intro {
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.comp-intro .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.comp-intro .wrap .comp-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+}
+
+.comp-intro .wrap .comp-title p {
+    color: #9ea784;
+}
+
+.comp-intro .wrap .comp-body {
+    color: #657180;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.comp-intro .wrap .comp-img{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.comp-img .comp-img-model{
+    width: 110px;
+    height: 136.9px;
+}
+
+.comp-img-model img {
+    width: 100px;
+    height: 100px;
+    /* margin: 12px auto; */
+}
+
+.comp-img-model span {
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 20.8px;
+}
+
+/* 公司介绍 */
+/* 发展历程 */
+.history-intro {
+    background-color: #2c3753;
+}
+
+.history-intro .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.history-intro .wrap .history-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.history-intro .wrap .history-title p {
+    color: rgb(158, 167, 132);
+}
+
+/* 发展历程 */
+/* 核心成果 */
+.core-achieve {
+    background-color: rgb(231, 230, 230);
+}
+
+.core-achieve .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.core-achieve .wrap .core-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+}
+
+.core-achieve .wrap .core-title p {
+    color: #9ea784;
+}
+
+.core-img{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.core-img img{
+    width: 1200px;
+    height: auto;
+}
+
+
+/* 核心成果 */
+/* 经典案例 */
+.class-case {
+    background-color: rgb(255, 255, 255);
+}
+
+.class-case .case-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.class-case .case-title p {
+    color: #9ea784;
+}
+
+.class-case .case-icon {
+    margin-top: 48px;
+    position: relative;
+    height: 790px;
+}
+
+.class-case .case-icon .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.case-icon .wrap .case-model {
+    height: 120px;
+    width: 140px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #fcfcfc;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    color: #657180;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px auto;
+    float: left;
+}
+
+.case-icon .wrap .case-model:hover>span {
+    color: rgb(45, 140, 240);
+}
+
+.case-model img {
+    width: 40px;
+    height: 40px;
+    margin: 12px auto;
+}
+
+.case-model span {
+    font-size: 13px;
+    line-height: 20.8px;
+}
+
+
+.class-case .case-icon .cont {
+    width: 100%;
+    height: 680px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 120px;
+    position: absolute;
+}
+
+.class-case .case-icon .cont .cont-one {
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: absolute;
+}
+
+.class-case .case-icon .cont .cont-one .tri {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    opacity: 1;
+    border: 15px solid transparent;
+    border-bottom: 0 solid #2c3753;
+    border-width: 0 15px 15px;
+    bottom: -30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.class-case .case-icon .cont .cont-two {
+    width: 100%;
+    height: 640px;
+    background-color: #2c3753;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.class-case .case-icon .cont .cont-two .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.case-icon .cont .cont-two .wrap .content-title {
+    color: #eeeaea;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content-title2 {
+    color: #eeeaea;
+    font-size: 30px;
+    text-align: center;
+}
+/* 经典案例 */
+/* 荣誉资质 */
+.honor-achieve {
+    background-color: rgb(246, 247, 249);
+}
+
+.honor-achieve .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.honor-achieve .wrap .honor-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+}
+
+.honor-achieve .wrap .honor-title p {
+    color: #9ea784;
+}
+
+.honor-body {
+    color: #657180;
+    font-size: 18px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.honor-img{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.honor-img img{
+    width: 1200px;
+    height: auto;
+}
+/* 核心成果 */
+/* 合作伙伴 */
+.coop-achieve {
+    background-color: rgb(255, 255, 255);
+}
+
+.coop-achieve .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.coop-achieve .wrap .coop-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+}
+
+.coop-achieve .wrap .coop-title p {
+    color: #9ea784;
+}
+
+.coop-box {
+    width: 1000px;
+    height: 100px;
+    border: rgb(247, 247, 247) 0.8px solid;
+    box-shadow: rgba(51, 51, 51, 0.08) 0px 0px 8px 0px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.coop-box img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.coop-box .biaoTi {
+    color: black;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    width: 900px;
+    height: 48px;
+    margin-top: 10px;
+}
+
+/* 合作伙伴 */
+/* 公司地址 */
+.addr-achieve {
+    background-color: rgb(246, 247, 249);
+}
+
+.addr-achieve .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.addr-achieve .wrap .addr-title {
+    color: #657180;
+    font-size: 30px;
+    text-align: center;
+}
+
+.addr-achieve .wrap .addr-title p {
+    color: #9ea784;
+}
+
+.addr-body {
+    color: rgb(101, 113, 128);
+    font-size: 18px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.addr-body p{
+    color: rgb(101, 113, 128);
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.addr-img{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+/* 公司地址 */

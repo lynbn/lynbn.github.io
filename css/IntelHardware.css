@@ -1,0 +1,104 @@
+/* 概要图片 */
+.ditu {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.ditu img {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-25%);
+    /* opacity: 0.5; */
+}
+
+.ditu span:nth-child(1) {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 50px;
+    transform: translate(-30%);
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+    display: inline-block;
+}
+
+.ditu span:nth-child(2) {
+    position: absolute;
+    top: 20%;
+    left:50%;
+    font-size: 18px;
+    width: 800px;
+    transform: translate(-30%);
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+    display: inline-block;
+}
+
+/* 概要图片 */
+/* 表格 */
+.table-body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.device_window__wSCZS {
+    border-top: 1px solid #e3e8ee;
+    border-left: 1px solid #e3e8ee;
+    display: flex;
+    flex-direction: column;
+    margin: 24px
+}
+
+.device_window__wSCZS>.device_grid__3tQnG {
+    display: flex
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_left__GQZES {
+    font-size: 20px;
+    width: 600px;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_right__8jtI8 {
+    flex: 1 1;
+    width: 600px;
+    padding: 12px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_right__8jtI8 img {
+    width: 320px;
+    height: auto;
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_right__8jtI8 span {
+    margin-right: 24px;
+    color: #464c5b;
+    width: 120px;
+    display: inline-flex;
+    justify-content: end
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_right__8jtI8 p {
+    margin: 8px auto;
+    color: #657180;
+    text-align: center;
+}
+
+.device_window__wSCZS>.device_grid__3tQnG .device_right__8jtI8 li {
+    color: #464c5b
+}
+
+.device_window__wSCZS>.device_grid__3tQnG>div {
+    border-right: 1px solid #e3e8ee;
+    border-bottom: 1px solid #e3e8ee
+}
